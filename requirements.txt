@@ -3,7 +3,8 @@ uvicorn
 requests
 SQLAlchemy
 python-dotenv
-# databases[postgresql]
+psycopg2
+databases[postgresql]
 # alembic
 # pydantic[email]
 # passlib[bcrypt]
