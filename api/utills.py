@@ -3,8 +3,7 @@ import json
 from api.settings import Settings
 from sqlalchemy.orm import Session
 from api.models import Area
-from typing import Optional
-from fastapi import status, HTTPException
+
 URL = Settings.BASE_URL
 
 def get_token():
